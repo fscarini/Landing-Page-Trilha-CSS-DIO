@@ -6,11 +6,6 @@ Landing page feita através de um modelo do Figma, disponibilizado pela platafor
 
 - [Sobre](#sobre)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Funcionalidades](#funcionalidades)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Sobre
 
