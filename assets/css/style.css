@@ -1,0 +1,126 @@
+.banner {
+    width: 100%;
+    height: 605px;
+    background-image: url('../img/banner.png'), linear-gradient(180deg, rgba(0, 0, 0, 0.95) 5%, rgba(18, 18, 106, 0.98) 50%, rgba(0, 0, 0, 0.95) 95%);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    border-bottom: 3px solid #33A8DB;
+}
+
+.banner-image {
+    display: block;
+    margin: 0 auto;
+    padding: 56px 0 32px 0;
+}
+
+.banner-content .banner-title {
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.banner-content .banner-text {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-button {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 70px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(49, 168, 221, 1);
+    border: 2px solid rgba(49, 168, 221, 1);
+    text-transform: uppercase;
+    line-height: 18px;
+    font-weight: 900;
+
+    /*Propriedades abaixo listadas com comentários para estudos*/
+    background-color: transparent;
+    /* Fundo transparente inicialmente */
+    transition: all 0.3s ease;
+    /* Transição suave para todas as propriedades */
+    cursor: pointer;
+    /* Altera o cursor para "mão" */
+}
+
+/* Efeito de hover */
+.banner-button:hover {
+    background-color: rgba(49, 168, 221, 0.1);
+    /* Muda a cor de fundo ao passar o mouse */
+    transform: scale(1.05);
+    /* Aumenta levemente o botão */
+    color: rgba(49, 168, 221, 1);
+    /* Cor do texto (pode mudar conforme desejado) */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    /* Adiciona uma sombra */
+}
+
+/* Efeito de clique (active) */
+.banner-button:active {
+    transform: scale(0.95);
+    /* Diminui o botão ao clicar */
+    box-shadow: none;
+    /* Remove a sombra ao clicar */
+}
+
+.learn {
+    color: white;
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 3px solid #33A8DB;
+    width: 100%;
+    height: 605px;
+}
+
+.learn-title {
+    padding: 56px 0 32px 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    color: #33A8DB;
+    text-transform: uppercase;
+}
+
+.learn-text {
+    padding-bottom: 24px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 792px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+}
+
+.modules-list .module {
+    width: 700px;
+    height: 51px;
+    padding: 16px 127px 16px 127px;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    background-color:#252525;
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+
+.module > strong{
+    color: #33A8DB;
+}
